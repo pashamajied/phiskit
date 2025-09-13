@@ -25,11 +25,18 @@
 **Phishkit** is a one-click Bash installer that:
 - Automatically installs and configures **Gophish**
 - Runs a **webhook listener** using Go
-- Sets up **HTTPS certificates** with Certbot
 - Uses **tmux** to manage background sessions
 - Outputs admin panel credentials and IP info
 
+
+> ✅ Tested and working on **Ubuntu 25.04**
+
 > ✅ Tested and working on **Ubuntu 24.04 LTS**
+
+> ✅ Tested and working on **Ubuntu 22.04 LTS**
+
+> ✅ Tested and working on **Debian 12**
+
 
 Perfect for red teamers, phishing simulation, or security labs.
 
@@ -38,7 +45,7 @@ Perfect for red teamers, phishing simulation, or security labs.
 ## ⚙️ How to Use
 
 ```bash
-git clone https://github.com/pashamajied/phishkit.git
-cd phishkit
-chmod +x phishkit-setup.sh
-sudo ./phishkit-setup.sh
+git clone https://github.com/pashamajied/phiskit.git
+cd phiskit
+chmod +x phiskit-setup.sh
+sudo ./phiskit-setup.sh
