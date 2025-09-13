@@ -1,6 +1,6 @@
 <h1 align="center">Phishkit</h1>
 
-<p align="center"><i>Automated Gophish + Webhook + Certbot Installer with tmux session handling</i></p>
+<p align="center"><i>Automated Gophish + Webhook Installer with tmux session handling</i></p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/last%20commit-July%202025-blue" />
