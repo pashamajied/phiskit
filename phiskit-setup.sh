@@ -138,7 +138,7 @@ run_step "${steps[4]}" wget -q "$GOPHISH_URL" -O "$GOPHISH_ZIP"
 run_step "${steps[5]}" bash -c "mkdir -p $GOPHISH_PATH && unzip -o $GOPHISH_ZIP -d $GOPHISH_PATH > /dev/null && chmod +x $GOPHISH_PATH/gophish && cat > $GOPHISH_PATH/config.json <<EOF
 {
   \"admin_server\": {
-    \"listen_url\": \"0.0.0.0:3333\",
+    \"listen_url\": \"0.0.0.0:8443\",
     \"use_tls\": true,
     \"cert_path\": \"gophish_admin.crt\",
     \"key_path\": \"gophish_admin.key\",
